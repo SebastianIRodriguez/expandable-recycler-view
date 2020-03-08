@@ -20,5 +20,5 @@ public interface OnCheckChildClickListener {
    * @param group The {@link CheckedExpandableGroup}  that contains the child that  was clicked
    * @param childIndex The child position within the {@link CheckedExpandableGroup}
    */
-  void onCheckChildCLick(View v, boolean checked, CheckedExpandableGroup group, int childIndex);
+  void onCheckChildCLick(View v, boolean checked, CheckedExpandableGroup group, int groupIndex, int childIndex);
 }

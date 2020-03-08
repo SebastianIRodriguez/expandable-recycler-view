@@ -115,7 +115,7 @@ public abstract class CheckableChildRecyclerViewAdapter<GVH extends GroupViewHol
     childCheckController.checkChild(checked, groupIndex, childIndex);
     if (childClickListener != null) {
       childClickListener.onCheckChildCLick(null, checked,
-          (CheckedExpandableGroup) expandableList.groups.get(groupIndex), childIndex);
+          (CheckedExpandableGroup) expandableList.groups.get(groupIndex), groupIndex, childIndex);
     }
   }
 
